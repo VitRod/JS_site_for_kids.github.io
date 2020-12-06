@@ -1,0 +1,354 @@
+@media (min-width: 0px) and (max-width: 300px) {
+    #header-title__1 {
+        font-size: 250%;
+    }
+    .content-title {
+        font-size: 250%;
+    }
+    #header-title__3 {
+        font-size: 250%;
+    }
+    .a1 {
+        font-size: 250%;
+    }
+    #header-title__2 {
+        font-size: 200%;
+    }
+    #carousel-wrapper #image {
+        height: 100px;
+        width: 200px;
+        transform: translate(-20px, 0px);
+    }
+    #carousel-wrapper #menu #current-option #current-option-text1 {
+        font-size: 1.2rem;
+        line-height: 3rem;
+        margin-left: 50px;
+        width: 220px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #carousel-wrapper #menu #previous-option {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 20%;
+        border: none;
+        display: block;
+        cursor: pointer;
+        background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
+        
+        background-size: cover;
+        position: absolute;
+        transform: translate(50px, 50px);
+        }
+        #carousel-wrapper #menu #next-option {
+  
+            width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 20%;
+        border: none;
+        display: block;
+        cursor: pointer;
+        background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
+        
+        background-size: cover;
+        position: absolute;
+        transform: translate(50px, -50px) rotate(-180deg);
+        }
+        @keyframes previous-image {
+            0% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+            70% {
+                transform: translate(0, 0) scale(0);
+                opacity: 0;
+            }
+            100% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            } }
+            @keyframes next-image {
+                0% {
+                    transform: translate(0, 0) scale(1);
+                    opacity: 1;
+                }
+                70% {
+                    transform: translate(0, 0) scale(1.1);
+                    opacity: 1;
+                }
+                100% {
+                    transform: translate(0, 0) scale(1);
+                    opacity: 1;
+                }
+            }
+            .contact2-form-btn {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                padding: 0 20px;
+             margin-left: -15%;
+                height: 50px;
+                font-size: 16px;
+                color: #fff;
+                line-height: 1.2;
+            }
+}
+@media (min-width: 300.1px) and (max-width: 500px) {
+    #header-title__1 {
+        font-size: 310%;
+        margin-bottom: 25%;
+    }
+    .content-title {
+        font-size: 310%;
+    }
+    .a1 {
+        font-size: 250%;
+    }
+    #header-title__3 {
+        font-size: 310%;
+        margin-bottom: 25%;
+    }
+    #header-title__2 {
+        font-size: 250%;
+    }
+    #carousel-wrapper #image {
+        height: 120px;
+        width: 230px;
+        transform: translate(-20px, 0px);
+    }
+    #carousel-wrapper #menu #current-option #current-option-text1 {
+        font-size: 1.2rem;
+        line-height: 3rem;
+        margin-left: 50px;
+        width: 220px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #carousel-wrapper #menu #previous-option {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 20%;
+        border: none;
+        display: block;
+        cursor: pointer;
+        background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
+        
+        background-size: cover;
+        position: absolute;
+        transform: translate(60px, 50px);
+        }
+        #carousel-wrapper #menu #next-option {
+  
+            width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 20%;
+        border: none;
+        display: block;
+        cursor: pointer;
+        background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
+        
+        background-size: cover;
+        position: absolute;
+        transform: translate(60px, -50px) rotate(-180deg);
+        }
+        @keyframes previous-image {
+            0% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+            70% {
+                transform: translate(0, 0) scale(0);
+                opacity: 0;
+            }
+            100% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            } }
+            @keyframes next-image {
+                0% {
+                    transform: translate(0, 0) scale(1);
+                    opacity: 1;
+                }
+                70% {
+                    transform: translate(0, 0) scale(1.1);
+                    opacity: 1;
+                }
+                100% {
+                    transform: translate(0, 0) scale(1);
+                    opacity: 1;
+                
+} } 
+
+
+}
+@media (min-width: 400px) and (max-width: 600px) {
+    
+    #carousel-wrapper #image {
+     margin-bottom: -30%;
+        height: 300px;
+        width: 320px;
+        transform: translate(-20px, 0px);
+    }
+    #carousel-wrapper #menu #current-option #current-option-text1 {
+        font-size: 1.2rem;
+        line-height: 3rem;
+        margin-left: 50px;
+        width: 220px;
+        height: 220px;
+        transform: translate(0px, -100px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #carousel-wrapper #menu #previous-option {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 20%;
+        border: none;
+        display: block;
+        cursor: pointer;
+        background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
+        
+        background-size: cover;
+        position: absolute;
+        transform: translate(80px, 100px);
+        }
+        #carousel-wrapper #menu #next-option {
+  
+            width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 20%;
+        border: none;
+        display: block;
+        cursor: pointer;
+        background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
+        
+        background-size: cover;
+        position: absolute;
+        transform: translate(80px, 0px) rotate(-180deg);
+        }
+        @keyframes previous-image {
+            0% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+            70% {
+                transform: translate(0, 0) scale(0);
+                opacity: 0;
+            }
+            100% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            } }
+            @keyframes next-image {
+                0% {
+                    transform: translate(0, 0) scale(1);
+                    opacity: 1;
+                }
+                70% {
+                    transform: translate(0, 0) scale(1.1);
+                    opacity: 1;
+                }
+                100% {
+                    transform: translate(0, 0) scale(1);
+                    opacity: 1;
+                
+} } 
+}
+@media (min-width: 600.1px) and (max-width: 1200px) {
+    #carousel-wrapper #image {
+      
+        height: 400px;
+        width: 520px;
+        transform: translate(-40px, 0px);
+    }
+    #carousel-wrapper #menu #current-option #current-option-text1 {
+        font-size: 1.2rem;
+        line-height: 3rem;
+        margin-left: 50px;
+        width: 220px;
+        height: 220px;
+        transform: translate(0px, -140px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #carousel-wrapper #menu #previous-option {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 20%;
+        border: none;
+        display: block;
+        cursor: pointer;
+        background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
+        
+        background-size: cover;
+        position: absolute;
+        transform: translate(120px, 100px);
+        }
+        #carousel-wrapper #menu #next-option {
+  
+            width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 20%;
+        border: none;
+        display: block;
+        cursor: pointer;
+        background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
+        
+        background-size: cover;
+        position: absolute;
+        transform: translate(120px, -100px) rotate(-180deg);
+        }
+        @keyframes previous-image {
+            0% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+            70% {
+                transform: translate(0, 0) scale(0);
+                opacity: 0;
+            }
+            100% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            } }
+            @keyframes next-image {
+                0% {
+                    transform: translate(0, 0) scale(1);
+                    opacity: 1;
+                }
+                70% {
+                    transform: translate(0, 0) scale(1.1);
+                    opacity: 1;
+                }
+                100% {
+                    transform: translate(0, 0) scale(1);
+                    opacity: 1;
+                
+} } 
+}
+@media (min-width: 493px) and (max-width: 800px) {
+    .map {
+        height: 500px;
+    }
+}
+@media  (min-width: 800.1px) {
+    .map {
+        height: 400px;
+        width: 500px;
+    }
+}
